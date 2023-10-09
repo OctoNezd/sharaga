@@ -1,4 +1,4 @@
-FROM python:3.11-bookworm AS requirements
+FROM python:3.12-bookworm AS requirements
 WORKDIR /build/
 RUN pip install poetry==1.4.1
 COPY poetry.lock pyproject.toml /build/
@@ -15,7 +15,7 @@ COPY ./.git ./.git
 COPY ./web/ ./
 RUN yarn build
 
-FROM python:3.11-bookworm AS app
+FROM python:3.12-bookworm AS app
 WORKDIR /app
 # Project initialization:
 COPY --from=requirements /build/requirements.txt /app/
