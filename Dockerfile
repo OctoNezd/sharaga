@@ -4,7 +4,7 @@ RUN pip install poetry==1.4.1
 COPY poetry.lock pyproject.toml /build/
 RUN poetry export -f requirements.txt --without-hashes >requirements.txt
 
-FROM node:20-bookworm AS webbuild
+FROM node:21-bookworm AS webbuild
 RUN apt update && apt install git automake build-essential autoconf nasm -y
 WORKDIR /build/
 COPY ./web/package.json ./web/yarn.lock ./web/.yarnrc.yml ./
