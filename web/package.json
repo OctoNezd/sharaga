@@ -42,7 +42,7 @@
     "vue-cookie-accept-decline": "^6.1.0",
     "vue-gtag": "^2.0.1",
     "vue-multiselect": "^2.1.7",
-    "vue-router": "^4.2.4"
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@capacitor/cli": "^5.3.0",
