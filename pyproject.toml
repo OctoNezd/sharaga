@@ -16,7 +16,7 @@ fastapi-analytics = "^1.1.4"
 [tool.poetry.dev-dependencies]
 uvicorn = "^0.23.2"
 gunicorn = "^21.2.0"
-fakeredis = "^2.10.2"
+fakeredis = "^2.20.1"
 autopep8 = "^2.0.4"
 tqdm = "^4.64.0"
 
