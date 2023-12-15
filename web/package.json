@@ -14,7 +14,7 @@
   "dependencies": {
     "@capacitor/android": "^5.3.0",
     "@capacitor/core": "^5.3.0",
-    "@capacitor/ios": "^5.3.0",
+    "@capacitor/ios": "^5.6.0",
     "@fontsource/roboto": "^5.0.8",
     "@material/material-color-utilities": "^0.2.7",
     "@material/web": "^1.0.0-pre.17",
