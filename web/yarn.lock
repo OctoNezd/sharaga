@@ -1714,9 +1714,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@capacitor/cli@npm:^5.3.0":
-  version: 5.3.0
-  resolution: "@capacitor/cli@npm:5.3.0"
+"@capacitor/cli@npm:^5.6.0":
+  version: 5.6.0
+  resolution: "@capacitor/cli@npm:5.6.0"
   dependencies:
     "@ionic/cli-framework-output": ^2.2.5
     "@ionic/utils-fs": ^3.1.6
@@ -1726,7 +1726,7 @@ __metadata:
     debug: ^4.3.4
     env-paths: ^2.2.0
     kleur: ^4.1.4
-    native-run: ^1.7.2
+    native-run: ^2.0.0
     open: ^8.4.0
     plist: ^3.0.5
     prompts: ^2.4.2
@@ -1738,7 +1738,7 @@ __metadata:
   bin:
     cap: bin/capacitor
     capacitor: bin/capacitor
-  checksum: eb4b1ee91127a678219fcdb9674a9bfef494857d98d5336b1330e9490b317e287f9fc88333a97a8b474832263bd83ce187d5460296261129730a2441c7f7ef21
+  checksum: 8d47c9ac71d0b4796edfc41db9d69b97b98d94f3b8460e002f83c648ab202ddd173a8db39d4c531fcdd8feb7890de4789b3c6991e6c0d1d63ae34b31f2293dbc
   languageName: node
   linkType: hard
 
@@ -2009,7 +2009,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ionic/utils-fs@npm:3.1.7, @ionic/utils-fs@npm:^3.1.6":
+"@ionic/utils-fs@npm:3.1.7, @ionic/utils-fs@npm:^3.1.6, @ionic/utils-fs@npm:^3.1.7":
   version: 3.1.7
   resolution: "@ionic/utils-fs@npm:3.1.7"
   dependencies:
@@ -2071,7 +2071,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ionic/utils-terminal@npm:2.3.4, @ionic/utils-terminal@npm:^2.3.3":
+"@ionic/utils-terminal@npm:2.3.4, @ionic/utils-terminal@npm:^2.3.3, @ionic/utils-terminal@npm:^2.3.4":
   version: 2.3.4
   resolution: "@ionic/utils-terminal@npm:2.3.4"
   dependencies:
@@ -5419,10 +5419,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ini@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "ini@npm:3.0.1"
-  checksum: 947b582a822f06df3c22c75c90aec217d604ea11f7a20249530ee5c1cf8f508288439abe17b0e1d9b421bda5f4fae5e7aae0b18cb3ded5ac9d68f607df82f10f
+"ini@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "ini@npm:4.1.1"
+  checksum: 0e5909554074fbc31824fa5415b0f604de4a665514c96a897a77bf77353a7ad4743927321270e9d0610a9d510ccd1f3cd77422f7cc80d8f4542dbce75476fb6d
   languageName: node
   linkType: hard
 
@@ -6517,24 +6517,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"native-run@npm:^1.7.2":
-  version: 1.7.2
-  resolution: "native-run@npm:1.7.2"
+"native-run@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "native-run@npm:2.0.0"
   dependencies:
-    "@ionic/utils-fs": ^3.1.6
-    "@ionic/utils-terminal": ^2.3.3
+    "@ionic/utils-fs": ^3.1.7
+    "@ionic/utils-terminal": ^2.3.4
     bplist-parser: ^0.3.2
     debug: ^4.3.4
     elementtree: ^0.1.7
-    ini: ^3.0.1
-    plist: ^3.0.6
-    split2: ^4.1.0
+    ini: ^4.1.1
+    plist: ^3.1.0
+    split2: ^4.2.0
     through2: ^4.0.2
-    tslib: ^2.4.0
+    tslib: ^2.6.2
     yauzl: ^2.10.0
   bin:
     native-run: bin/native-run
-  checksum: e892344602772fba4eb5fed29e18305ed7106c02e8b9ce166e20e98a352fbc7b335d9ef101c52448c11b5888e560da9008c3e841f1915810631b1f40a6666693
+  checksum: b7186a5f99b8fbaebed1c81768718476d8e2871869094521b173ab476b0ecd69eb045134f559958677bdf0c030e6d2aed14ac536e1f8686b835921856701c655
   languageName: node
   linkType: hard
 
@@ -7010,7 +7010,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"plist@npm:^3.0.5, plist@npm:^3.0.6":
+"plist@npm:^3.0.5, plist@npm:^3.1.0":
   version: 3.1.0
   resolution: "plist@npm:3.1.0"
   dependencies:
@@ -7823,7 +7823,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"split2@npm:^4.1.0":
+"split2@npm:^4.2.0":
   version: 4.2.0
   resolution: "split2@npm:4.2.0"
   checksum: 05d54102546549fe4d2455900699056580cca006c0275c334611420f854da30ac999230857a85fdd9914dc2109ae50f80fda43d2a445f2aa86eccdc1dfce779d
@@ -8305,7 +8305,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.0.1, tslib@npm:^2.1.0, tslib@npm:^2.4.0, tslib@npm:^2.4.1 || ^1.9.3, tslib@npm:^2.5.0, tslib@npm:^2.6.0":
+"tslib@npm:^2.0.1, tslib@npm:^2.1.0, tslib@npm:^2.4.0, tslib@npm:^2.4.1 || ^1.9.3, tslib@npm:^2.5.0, tslib@npm:^2.6.0, tslib@npm:^2.6.2":
   version: 2.6.2
   resolution: "tslib@npm:2.6.2"
   checksum: 329ea56123005922f39642318e3d1f0f8265d1e7fcb92c633e0809521da75eeaca28d2cf96d7248229deb40e5c19adf408259f4b9640afd20d13aecc1430f3ad
@@ -8731,7 +8731,7 @@ __metadata:
   resolution: "web@workspace:."
   dependencies:
     "@capacitor/android": ^5.3.0
-    "@capacitor/cli": ^5.3.0
+    "@capacitor/cli": ^5.6.0
     "@capacitor/core": ^5.3.0
     "@capacitor/ios": ^5.3.0
     "@fontsource/roboto": ^5.0.8
