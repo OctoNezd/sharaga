@@ -4,4 +4,4 @@ aiohttp==3.8.5
 fastapi==0.95.2
 ics==0.7.2
 redis==4.6.0
-sentry_sdk[fastapi]==1.30.0
+sentry_sdk[fastapi]==1.39.1
