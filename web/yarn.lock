@@ -7042,9 +7042,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pinia@npm:^2.1.6":
-  version: 2.1.6
-  resolution: "pinia@npm:2.1.6"
+"pinia@npm:^2.1.7":
+  version: 2.1.7
+  resolution: "pinia@npm:2.1.7"
   dependencies:
     "@vue/devtools-api": ^6.5.0
     vue-demi: ">=0.14.5"
@@ -7057,7 +7057,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 4e881e590c4f6ec9c2dc6174cf7ecc71a48bff1f3a5be878669b3b2fd32994fa64c3cbf499d138bc4e0f222ac6ad1d07935b0a592791acdaf8c9f2a12c98f042
+  checksum: 1b7882aab2828ad209d3e76e06918c8811d04699c9308d372094cde6df485d7e7785f25a3bb5c6a3724aeaee3fb0082fae03c41a6657acd3486c7965a0a09d34
   languageName: node
   linkType: hard
 
@@ -8842,7 +8842,7 @@ __metadata:
     localforage: ^1.10.0
     lottie-web: ^5.12.2
     mdi-vue: ^3.0.13
-    pinia: ^2.1.6
+    pinia: ^2.1.7
     postcss: ^8.4.31
     prettier: 3.0.3
     swiper: ^11.1.4

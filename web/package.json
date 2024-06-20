@@ -33,7 +33,7 @@
     "localforage": "^1.10.0",
     "lottie-web": "^5.12.2",
     "mdi-vue": "^3.0.13",
-    "pinia": "^2.1.6",
+    "pinia": "^2.1.7",
     "postcss": "^8.4.31",
     "swiper": "^11.1.4",
     "terser": "^5.19.4",
