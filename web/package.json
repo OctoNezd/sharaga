@@ -36,7 +36,7 @@
     "mdi-vue": "^3.0.13",
     "pinia": "^2.2.2",
     "postcss": "^8.4.31",
-    "swiper": "^11.1.4",
+    "swiper": "^11.1.14",
     "terser": "^5.19.4",
     "vite-plugin-favicon": "^1.0.8",
     "vue": "^3.3.4",
