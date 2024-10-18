@@ -1743,12 +1743,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@capacitor/core@npm:^5.3.0":
-  version: 5.3.0
-  resolution: "@capacitor/core@npm:5.3.0"
+"@capacitor/core@npm:^6.1.2":
+  version: 6.1.2
+  resolution: "@capacitor/core@npm:6.1.2"
   dependencies:
     tslib: ^2.1.0
-  checksum: 1de631e0141bfefee3272239d3b3bfd5d50613bf5e4ebb0602fe6afb533f1a401a8cf35663389bbbff78959b2f11fa9c33e68feb44112d18fd07610658210d21
+  checksum: 51e5f575c4d96290902c6421fd6c4493e4e865cc95cfd1a207bf80956945cc06e724beb3fc9bfb21f44b0a3559c6a0064137b9dcf2b03b2550bb496c7043dc4e
   languageName: node
   linkType: hard
 
@@ -8810,7 +8810,7 @@ __metadata:
   dependencies:
     "@capacitor/android": ^5.3.0
     "@capacitor/cli": ^6.1.0
-    "@capacitor/core": ^5.3.0
+    "@capacitor/core": ^6.1.2
     "@capacitor/ios": ^6.1.0
     "@fontsource/roboto": ^5.0.8
     "@material/material-color-utilities": ^0.2.7
